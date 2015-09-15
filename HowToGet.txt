@@ -1,0 +1,15 @@
+To Add A Directory To Git
+(On local computer): mkdir <directory name>
+So now you have home/ken/gitDirectory/<directory name>
+Navigate to home/ken/gitDirectory
+git add <directory name>
+
+To import a directory from git
+git clone https://github.com/schroek3/<DirectoryName>
+
+To add a file
+First, add the file: git add <filename>
+Then, commit it: git commit -m "<Message>"
+Then, push it: git push
+
+Confusing!
