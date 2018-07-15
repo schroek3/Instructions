@@ -1,15 +1,9 @@
-To Add A Directory To Git
-(On local computer): mkdir <directory name>
-So now you have home/ken/gitDirectory/<directory name>
-Navigate to home/ken/gitDirectory
-git add <directory name>
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
-To import a directory from git
-git clone https://github.com/schroek3/<DirectoryName>
-
-To add a file
-First, add the file: git add <filename>
-Then, commit it: git commit -m "<Message>"
-Then, push it: git push
-
-Confusing!
+How to Add to an Existing Repository
+1. Go to the file you want to be at
+2. git init
+3. git add <fileName>
+4. git commit -m "<Message>"
+5. git remote add origin https://github.com/schroek3/<repository name>.git
+6. git push -u origin master
